@@ -1,0 +1,47 @@
+@import url("./cards.css");
+@import url("./header.css");
+
+
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{   
+    background-color:#4B0082;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     margin: 20px;
+     
+}
+
+.alunos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffffc4;
+    height: 95px;
+    margin: 20px;
+    
+}
+
+.logo{
+    width: 200px;
+}
+
+.aluno {
+    width: 100px;
+    /* margin-left: 10px; */
+}
+
+.professor {
+    width: 100px;
+   
+}
